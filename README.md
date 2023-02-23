@@ -33,7 +33,8 @@ My GLH & Exit Tickets stating what I learnt each day.</br>
 <p align="justify">Today we continued learning about python. We learnt how to debug and test programs. We made systems admin program that adds a user, deletes user, and adds user groups. We also did labs to debug Caesar cipher that had bugs in it. We used cloud 9 platform and VS. Code to debug the programs. We also learned more in depth about the CI CD process. CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of continuous delivery, and continuous deployment.</p>
 
 Below is a diagram of my understanding of the CI CD and the other CD process.:
-<p>Continuous Integration, Continuous Delivery, and Continuous Deployment</p>
+<h3 align="center">CI CD<h3>
+<h4 align="center">Continuous Integration, Continuous Delivery, and Continuous Deployment</h4>
 
 
 ```mermaid
@@ -49,4 +50,22 @@ graph TD;
     Release-->End.Users;
     Release-->Businesses;
     Release-->Gov;
+```
+
+</br>
+
+***
+***
+
+<h3 align="center">DevOps<h3>
+
+
+<h5>Below is a diagram of my understanding of DevOps:</h5>
+Development: Plan-Code-Build-Test
+Operations : Release-Deploy-Operate-Monitor 
+
+```mermaid
+graph TD;
+    Plan-->Code-->Build-->Test;
+    Test-->Release-->Deploy-->Operate--Monitor-->Plan;
 ```
